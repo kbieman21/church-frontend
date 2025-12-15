@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
-import  {apiClient} from "../../clients/api"
-import { Link } from "react-router-dom";
-import type {Event} from "../../types/Event"
+// import { useEffect, useState } from "react";
+// import  {apiClient} from "../../clients/api"
+// import type {Event} from "../../types/Event"
 
 function EventsPage() {
-  const [events, setEvents] = useState<Event[]>([]);
+  // const [events, setEvents] = useState<Event[]>([]);
 
-  useEffect(() => {
-    apiClient.get("/api/events").then((res) => {
-      setEvents(res.data);
-    });
-  }, []);
+  // useEffect(() => {
+  //   apiClient.get("/api/events").then((res) => {
+  //     setEvents(res.data);
+  //   });
+  // }, []);
 
   return (
     <div className="max-w-5xl mx-auto mt-10 px-4">
