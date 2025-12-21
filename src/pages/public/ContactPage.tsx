@@ -75,7 +75,7 @@ function ContactPage() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto mt-10 px-4">
+    <div className="max-w-3xl mx-auto mt-10 px-4 text-white">
       <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
 
       <p className="mb-6">We would love to hear from you! Send us a message below.</p>
@@ -87,7 +87,7 @@ function ContactPage() {
           placeholder="Your Name"
           value={form.name}
           onChange={handleChange}
-          className="w-full p-3 border rounded"
+          className="w-full p-3 border rounded text-white"
         />
 
         <input

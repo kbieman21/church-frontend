@@ -11,7 +11,7 @@ function HomePage() {
         <div  />
 
         <div className="relative z-10 text-center text-white max-w-2xl px-4">
-          <h1 className="text-5xl font-bold mb-4">Welcome to Our Church</h1>
+          <h1 className="text-5xl font-bold mb-4 text-black">Welcome to Our Church</h1>
           <p className="text-lg mb-6">
             A community of faith, hope, and love. Join us this Sunday!
           </p>
@@ -51,7 +51,7 @@ function HomePage() {
             href="https://www.facebook.com/StMichaelEritreanOrthodoxChurch"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 font-semibold"
+            className="text-white  font-bold"
           >
             View other activities →
           </a>

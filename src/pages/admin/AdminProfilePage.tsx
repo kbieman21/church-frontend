@@ -79,6 +79,6 @@
 export default function AdminProfilePage() {
     return(
         <>
-        <h1> IN THE FUTURE ADMINSTRATIVE WORK WILL DISPLAY HERE </h1></>
+        <h1 className="text-white flex itemes-center"> IN THE FUTURE ADMINSTRATIVE WORK WILL DISPLAY HERE </h1></>
     )
 }

@@ -14,6 +14,18 @@ function EventsPage() {
   return (
     <div className="max-w-5xl mx-auto mt-10 px-4">
       <h1 className="text-4xl font-bold mb-6">Upcoming Events</h1>
+     
+
+      <div className="text-center mt-8">
+          <a
+            href="https://www.ethiopiancalendar.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white font-semibold"
+          >
+            View Calendar for more events →
+          </a>
+        </div>
 
       {/* <div className="space-y-6">
         {events.map((event) => (
