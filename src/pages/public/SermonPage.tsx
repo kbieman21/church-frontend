@@ -1,15 +1,13 @@
-import { useEffect, useState } from "react";
-import { apiClient } from "../../clients/api"
-import type { Sermon } from "../../types/Sermon";
+
 
 function SermonsPage() {
-  const [sermons, setSermons] = useState<Sermon[]>([]);
+ 
 
-  useEffect(() => {
-    apiClient.get("/api/sermons").then((res) => {
-      setSermons(res.data);
-    });
-  }, []);
+  // useEffect(() => {
+  //   apiClient.get("/api/sermons").then((res) => {
+  //     setSermons(res.data);
+  //   });
+  // }, []);
 
   return (
     <div className="max-w-5xl mx-auto mt-10 px-4">
