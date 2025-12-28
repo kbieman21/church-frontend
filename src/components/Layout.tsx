@@ -1,5 +1,5 @@
 import { type ReactNode } from 'react';
-import backgroundImage from '../assets/stMichaelPicture1.jpg'; // Adjust the path as needed
+import backgroundImage from '../assets/StMichaelPicture2.jpeg'; // Adjust the path as needed
 
 interface LayoutProp {
   children:ReactNode;
